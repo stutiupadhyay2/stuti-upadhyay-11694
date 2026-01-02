@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* function declarations */
+/ function declarations /
 void add();
 void subtract();
 void multiply();
@@ -13,7 +13,7 @@ int main()
 
     do
     {
-        printf("\n---- MINI CALCULATOR ----\n");
+        printf("\n**** MINI CALCULATOR ****\n");
         printf("1. Addition\n");
         printf("2. Subtraction\n");
         printf("3. Multiplication\n");
@@ -48,7 +48,7 @@ int main()
     return 0;
 }
 
-/* functions */
+/ functions /
 
 void add()
 {
@@ -85,3 +85,4 @@ void divide()
     else
         printf("Quotient = %.2f", a / b);
 }
+
